@@ -1,67 +1,106 @@
 // * STRING EXERCISES
-// ! For this section, each exercises will be part of a function
-// ! Put your final answer on the return line 
 
-// TODO Change the string below to insert an apostraphe into "Its". Do not change the outer quotation marks.
+/**
+ * Change the string below to insert an apostrophe into the word "it's" using 
+ * the escape character. Do not change the outer quotation marks.
+ * 
+ * @returns {string}
+ */
 function escapePractice() {
-    let escape = 'I love ice cream. It\'s my favorite dessert.';  // You can get rid of the variable and just return the string when you're done
+    let escape = 'I love ice cream. Its my favorite dessert.';  
     return escape;
 }
 
-// TODO Given a random string, return its length
 
 /**
+ * Given a random string called randomString, return the length of the string.
  * 
  * @param {String} randomString 
  * @returns 
  */
 function findAStringsLength(randomString) {
-    return randomString.length;
+    // TODO Finish the function
 }
 
-// TODO Given a random string, how would you access the last character in that string? Return your answer
 /**
+ * Given a random string, return the last character in that 
+ * string.
  * 
  * @param {String} string 
+ * @returns {String}
  */
 function accessLastCharacter(string) {
-    return string.charAt(string.length - 1);
+    // TODO Finish the function
 }
 
-// ! Use slice()
-// TODO Given a random url, return everything after the www.
-// Your answer should look something like this: google.com, bing.com, etc
-// https://www.google.com
 /**
+ * Given a random string of a url called url, return everything after the 
+ * "www." section of the url.
+ * 
+ * * Do this using slice()
+ *  
+ * Your answer should look something like this:
+ * 
+ * https://www.google.com -> google.com
  * 
  * @param {String} url 
+ * @returns {String}
  */
 function getWebsiteName(url) {
-    console.log(url.slice(12));
+    // TODO Finish the function
 }
 
-// ! Use slice()
-// TODO Given a random url, return the http portion and return it. 
-// Example url: https://www.google.com
+/**
+ * Given a string of a random url called url, return the portion of the url 
+ * that says "http".
+ * 
+ * * Do this using slice()
+ * 
+ * ! Do not return a string literal
+ * 
+ * Your answer should look something like this:
+ * 
+ * https://www.google.com -> http
+ * 
+ * @param {String} url 
+ * @returns {String}
+ */
 function getHttp(url) {
-    
+    // TODO Finish the function
 }
 
-// ! Use substring()
-// TODO Given a random url, return the substring com
+/**
+ * Given a string of a random url called url, return the "com" section of the 
+ * url.
+ * 
+ * * Do this using substring().
+ * 
+ * ! Do not return a string literal
+ * 
+ * Your answer should look something like this:
+ * 
+ * https://www.google.com -> com
+ * 
+ * @param {String} url 
+ * @returns {String}
+ */
 function getCom(url) {
-    return url.substring(19);
+   // TODO Finish the function
 }
 
 // ! Use substr()
 // TODO Given a random url, return the www portion of the string
 /**
+ * Given a string of a random url called url, return the "www" portion of the
+ * url. 
+ * 
+ * * Do this using substr()
  * 
  * @param {String} url 
  * @returns 
  */
 function getWww(url) {
-    return url.substr(8, 3);
+    // TODO Finish the function
 }
 
 // Replace the url for bing with google, and return google's url
